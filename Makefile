@@ -3,4 +3,5 @@ all:
 		&& make
 install:
 	ln -s nvim ~/.config/nvim
+	ln -s stack ~/.stack
 
