@@ -1,7 +1,10 @@
+current_dir = $(shell pwd)
+
 all:
+	git submodule update --init --recursive
 	cd nvim/bundle/vim-proc \
 		&& make
 install:
-	ln -sf nvim ~/.config/nvim
-	ln -sf stack ~/.stack
+	ln -sf $(current_dir)/nvim ~/.config/nvim
+	ln -sf $(current_dir)/stack ~/.stack
 

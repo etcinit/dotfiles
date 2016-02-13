@@ -103,3 +103,6 @@
 [submodule "nvim/bundle/neco-ghc"]
 	path = nvim/bundle/neco-ghc
 	url = https://github.com/eagletmt/neco-ghc.git
+[submodule "nvim/bundle/vim-pandoc"]
+	path = nvim/bundle/vim-pandoc
+	url = https://github.com/vim-pandoc/vim-pandoc.git
