@@ -1,5 +1,12 @@
 set encoding=utf-8
 
+" Make life easier
+nmap :W :w
+nmap :Q :q
+nmap :wQ :wq
+nmap :WQ :wq
+nmap :Wq :wq
+
 " Setup Pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect("bundle/{}")
@@ -103,7 +110,6 @@ let g:syntastic_warning_symbol = "⚠"
 let g:syntastic_enable_balloons = 1
 let g:syntastic_echo_current_error = 1
 
-au FileType haskell nnoremap <buffer> <F1> :HdevtoolsType<CR>
-au FileType haskell nnoremap <buffer> <silent> <F2> :HdevtoolsClear<CR>
+au FileType haskell nnoremap <buffer> <F1> :GhcModType<CR>
 
 let g:deoplete#enable_at_startup = 1

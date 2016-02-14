@@ -106,3 +106,9 @@
 [submodule "nvim/bundle/vim-pandoc"]
 	path = nvim/bundle/vim-pandoc
 	url = https://github.com/vim-pandoc/vim-pandoc.git
+[submodule "nvim/bundle/haskell-vim"]
+	path = nvim/bundle/haskell-vim
+	url = https://github.com/neovimhaskell/haskell-vim.git
+[submodule "nvim/bundle/ghcmod-vim"]
+	path = nvim/bundle/ghcmod-vim
+	url = https://github.com/eagletmt/ghcmod-vim.git
