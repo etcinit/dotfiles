@@ -112,3 +112,9 @@
 [submodule "nvim/bundle/ghcmod-vim"]
 	path = nvim/bundle/ghcmod-vim
 	url = https://github.com/eagletmt/ghcmod-vim.git
+[submodule "nvim/bundle/deoplete-go"]
+	path = nvim/bundle/deoplete-go
+	url = git@github.com:zchee/deoplete-go.git
+[submodule "nvim/bundle/editorconfig-vim"]
+	path = nvim/bundle/editorconfig-vim
+	url = git@github.com:editorconfig/editorconfig-vim.git
