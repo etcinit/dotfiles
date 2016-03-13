@@ -118,3 +118,6 @@
 [submodule "nvim/bundle/editorconfig-vim"]
 	path = nvim/bundle/editorconfig-vim
 	url = git@github.com:editorconfig/editorconfig-vim.git
+[submodule "nvim/bundle/vim-hare"]
+	path = nvim/bundle/vim-hare
+	url = git://github.com/glittershark/vim-hare.git
