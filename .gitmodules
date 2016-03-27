@@ -121,3 +121,6 @@
 [submodule "nvim/bundle/vim-hare"]
 	path = nvim/bundle/vim-hare
 	url = git://github.com/glittershark/vim-hare.git
+[submodule "nvim/bundle/vim-pandoc-syntax"]
+	path = nvim/bundle/vim-pandoc-syntax
+	url = git@github.com:vim-pandoc/vim-pandoc-syntax.git
