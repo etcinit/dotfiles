@@ -127,3 +127,6 @@
 [submodule "nvim/bundle/neomake"]
 	path = nvim/bundle/neomake
 	url = git@github.com:neomake/neomake.git
+[submodule "nvim/bundle/NrrwRgn"]
+	path = nvim/bundle/NrrwRgn
+	url = git@github.com:chrisbra/NrrwRgn.git
