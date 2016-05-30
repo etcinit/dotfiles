@@ -124,3 +124,7 @@ let g:go_highlight_build_constraints = 1
 let g:go_fmt_command = "goimports"
 
 autocmd! BufWritePost * Neomake
+
+let g:pandoc#modules#disabled = ["folding"]
+let g:pandoc#formatting#mode = "hA"
+let g:pandoc#formatting#textwidth = 79

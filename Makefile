@@ -9,4 +9,6 @@ all:
 install:
 	ln -sf $(current_dir)/nvim ~/.config/nvim
 	ln -sf $(current_dir)/stack ~/.stack
+	ln -sf $(current_dir)/fish ~/.config/fish
+	ln -sf $(current_dir)/npm/.npmrc ~/.npmrc
 

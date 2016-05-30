@@ -130,3 +130,6 @@
 [submodule "nvim/bundle/NrrwRgn"]
 	path = nvim/bundle/NrrwRgn
 	url = git@github.com:chrisbra/NrrwRgn.git
+[submodule "nvim/bundle/vim-irssi-syntax"]
+	path = nvim/bundle/vim-irssi-syntax
+	url = git@github.com:isundil/vim-irssi-syntax.git
