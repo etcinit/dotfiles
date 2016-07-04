@@ -12,8 +12,10 @@ runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect("bundle/{}")
 
 " Setup airline
+set noshowmode
 set laststatus=2
 let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
 
 " Setup CTRL-P
 let g:ctrlp_map = '<c-p>'

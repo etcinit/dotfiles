@@ -133,3 +133,6 @@
 [submodule "nvim/bundle/vim-irssi-syntax"]
 	path = nvim/bundle/vim-irssi-syntax
 	url = git@github.com:isundil/vim-irssi-syntax.git
+[submodule "nvim/bundle/taskpaper.vim"]
+	path = nvim/bundle/taskpaper.vim
+	url = git@github.com:etcinit/taskpaper.vim.git

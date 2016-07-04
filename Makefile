@@ -11,4 +11,5 @@ install:
 	ln -sf $(current_dir)/stack ~/.stack
 	ln -sf $(current_dir)/fish ~/.config/fish
 	ln -sf $(current_dir)/npm/.npmrc ~/.npmrc
+	ln -sf $(current_dir)/powerline ~/.config/powerline
 
