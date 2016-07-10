@@ -136,3 +136,6 @@
 [submodule "nvim/bundle/taskpaper.vim"]
 	path = nvim/bundle/taskpaper.vim
 	url = git@github.com:etcinit/taskpaper.vim.git
+[submodule "nvim/bundle/nerdtree-git-plugin"]
+	path = nvim/bundle/nerdtree-git-plugin
+	url = git@github.com:Xuyuanp/nerdtree-git-plugin.git
