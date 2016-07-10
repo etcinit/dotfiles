@@ -6,10 +6,24 @@ all:
 		&& make
 	cd nvim/bundle/deoplete-go \
 		&& make
-install:
-	ln -sf $(current_dir)/nvim ~/.config/nvim
-	ln -sf $(current_dir)/stack ~/.stack
-	ln -sf $(current_dir)/fish ~/.config/fish
+
+install: link-neovim link-stack link-fish link-npm link-powerline link-tmux
+
+link-neovim:
+	ln -sf $(current_dir)/nvim/ ~/.config/nvim/
+
+link-stack:
+	ln -sf $(current_dir)/stack/config.yaml ~/.stack/config.yaml
+
+link-fish:
+	ln -sf $(current_dir)/fish/ ~/.config/fish/
+
+link-npm:
 	ln -sf $(current_dir)/npm/.npmrc ~/.npmrc
-	ln -sf $(current_dir)/powerline ~/.config/powerline
+
+link-powerline:
+	ln -sf $(current_dir)/powerline/ ~/.config/powerline/
+
+link-tmux:
+	ln -sf $(current_dir)/tmux/tmux.conf ~/.tmux.conf
 
