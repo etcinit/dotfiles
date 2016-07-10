@@ -1,5 +1,7 @@
 set encoding=utf-8
 
+set shell=bash
+
 " Make life easier
 nmap :W :w
 nmap :Q :q
@@ -126,6 +128,7 @@ let g:go_highlight_build_constraints = 1
 let g:go_fmt_command = "goimports"
 
 autocmd! BufWritePost * Neomake
+let g:neomake_javascript_enabled_makers = ['flow', 'eslint']
 
 let g:pandoc#modules#disabled = ["folding"]
 let g:pandoc#formatting#mode = "hA"
