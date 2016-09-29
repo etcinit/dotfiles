@@ -139,3 +139,12 @@
 [submodule "nvim/bundle/nerdtree-git-plugin"]
 	path = nvim/bundle/nerdtree-git-plugin
 	url = git@github.com:Xuyuanp/nerdtree-git-plugin.git
+[submodule "nvim/bundle/psc-ide-vim"]
+	path = nvim/bundle/psc-ide-vim
+	url = git@github.com:FrigoEU/psc-ide-vim.git
+[submodule "nvim/bundle/purescript-vim"]
+	path = nvim/bundle/purescript-vim
+	url = https://github.com/raichoo/purescript-vim.git
+[submodule "nvim/bundle/deoplete-flow"]
+	path = nvim/bundle/deoplete-flow
+	url = git@github.com:steelsojka/deoplete-flow.git

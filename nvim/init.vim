@@ -35,6 +35,7 @@ let g:airline_theme='powerlineish'
 " map <C-e> :NERDTreeToggle<CR>
 map <C-e> <plug>NERDTreeTabsToggle<CR>
 let g:nerdtree_tabs_open_on_console_startup=1
+let NERDTreeMinimalUI=1
 
 " BufferList
 map <silent> <C-o> :call BufferList()<CR>
